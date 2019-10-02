@@ -41,3 +41,5 @@ RUN apt-get update && apt-get install -yq --no-install-recommends \
     sqlite3 \
     ca-certificates \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
+   
+RUN apt-get install -yq --no-install-recommends ufw
