@@ -7,8 +7,6 @@ RUN apt-get update && apt-get install -yq --no-install-recommends \
     curl \
     #sudo
     sudo
-    #ufw
-    ufw \
     # Install git
     git \
     # Install apache
