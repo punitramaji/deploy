@@ -5,6 +5,8 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -yq --no-install-recommends \
     apt-utils \
     curl \
+    #sudo
+    sudo
     #ufw
     ufw \
     # Install git
